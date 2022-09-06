@@ -11,7 +11,7 @@ module Roo
     extend Roo::Tempdir
     extend Forwardable
 
-    ERROR_VALUES = %w(#N/A #REF! #NAME? #DIV/0! #NULL! #VALUE! #NUM!).to_set
+    ERROR_VALUES = %w(#N/A #REF! #NAME? #DIV/0! #NULL! #VALUE! #NUM! #ERROR!).to_set
 
     require 'roo/excelx/shared'
     require 'roo/excelx/workbook'
